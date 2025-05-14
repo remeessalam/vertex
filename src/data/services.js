@@ -1,7 +1,7 @@
 export const services = [
   {
     title: "Web Development",
-    image: require("../assets/images/services/web-dev-banner.jpg"),
+    image: require("../assets/images/services/web-dev-banner.webp"),
     shortDesc:
       "Professional Web Development That Builds Trust From the First Click - Custom, responsive websites designed to convert visitors into customers and grow your online presence effectively.",
     technologies: [
@@ -13,9 +13,9 @@ export const services = [
       "Webflow",
     ],
     detailsPageImages: {
-      first: require("../assets/images/services/web1.jpg"),
-      second: require("../assets/images/services/web2.jpg"),
-      third: require("../assets/images/services/web3.jpg"),
+      first: require("../assets/images/services/web1.webp"),
+      second: require("../assets/images/services/web2.webp"),
+      third: require("../assets/images/services/web3.webp"),
     },
     html: {
       firstSection: `<h2 class="text-xl font-semibold mb-4">
@@ -133,14 +133,14 @@ export const services = [
   },
   {
     title: "App Development",
-    image: require("../assets/images/services/app-dev-banner.jpg"),
+    image: require("../assets/images/services/app-dev-banner.webp"),
     shortDesc:
       "Comprehensive Mobile App Development That Delivers Real Value - Building custom iOS and Android applications that engage users, solve business challenges, and drive measurable results for your organization.",
     technologies: ["Swift", "React Native", "Flutter", "Java", "Kotlin"],
     detailsPageImages: {
-      first: require("../assets/images/services/app1.jpg"),
-      second: require("../assets/images/services/app2.jpg"),
-      third: require("../assets/images/services/app3.jpg"),
+      first: require("../assets/images/services/app1.webp"),
+      second: require("../assets/images/services/app2.webp"),
+      third: require("../assets/images/services/app3.webp"),
     },
     html: {
       firstSection: ` <h2 class="text-xl font-semibold mb-4">
@@ -227,7 +227,7 @@ export const services = [
   },
   {
     title: "AI Development",
-    image: require("../assets/images/services/ai-dev-banner.jpg"),
+    image: require("../assets/images/services/ai-dev-banner.webp"),
     shortDesc:
       "Advanced AI Development That Makes Your Business Smarter - Custom artificial intelligence solutions designed to automate processes, enhance decision-making, and create competitive advantages for your business operations.",
     technologies: [
@@ -237,9 +237,9 @@ export const services = [
       "Predictive Modeling",
     ],
     detailsPageImages: {
-      first: require("../assets/images/services/ai1.jpg"),
-      second: require("../assets/images/services/ai2.jpg"),
-      third: require("../assets/images/services/ai3.jpg"),
+      first: require("../assets/images/services/ai1.webp"),
+      second: require("../assets/images/services/ai2.webp"),
+      third: require("../assets/images/services/ai3.webp"),
     },
     html: {
       firstSection: `<h2 class="text-xl font-semibold mb-4">
@@ -337,7 +337,7 @@ export const services = [
   },
   {
     title: "Data Analytics & Business Intelligence",
-    image: require("../assets/images/services/data-banner.jpg"),
+    image: require("../assets/images/services/data-banner.webp"),
     shortDesc:
       "Comprehensive Data Analytics & Business Intelligence That Drive Results - Transform raw data into actionable insights with powerful dashboards, predictive analytics, and strategic reporting solutions tailored to your business needs.",
     technologies: [
@@ -347,9 +347,9 @@ export const services = [
       "Predictive Analytics",
     ],
     detailsPageImages: {
-      first: require("../assets/images/services/data1.jpg"),
-      second: require("../assets/images/services/data2.jpg"),
-      third: require("../assets/images/services/data3.jpg"),
+      first: require("../assets/images/services/data1.webp"),
+      second: require("../assets/images/services/data2.webp"),
+      third: require("../assets/images/services/data3.webp"),
     },
     html: {
       firstSection: `<h2 class="text-xl font-semibold mb-4">
@@ -448,14 +448,14 @@ export const services = [
   },
   {
     title: "Cloud Solutions",
-    image: require("../assets/images/services/cloud-banner.jpg"),
+    image: require("../assets/images/services/cloud-banner.webp"),
     shortDesc:
       "Enterprise-Grade Cloud Solutions That Scale With You - Comprehensive cloud migration, architecture design, and optimization services to enhance performance, security, and cost-efficiency for your business infrastructure.",
     technologies: ["AWS", "Azure", "GCP", "CI/CD Pipelines", "DevOps"],
     detailsPageImages: {
-      first: require("../assets/images/services/cloud1.jpg"),
-      second: require("../assets/images/services/cloud2.jpg"),
-      third: require("../assets/images/services/cloud3.jpg"),
+      first: require("../assets/images/services/cloud1.webp"),
+      second: require("../assets/images/services/cloud2.webp"),
+      third: require("../assets/images/services/cloud3.webp"),
     },
     html: {
       firstSection: `<h2 class="text-xl font-semibold mb-4">
@@ -554,7 +554,7 @@ export const services = [
   },
   {
     title: "AI Chatbots",
-    image: require("../assets/images/services/chat-banner.jpg"), // Consider creating a new image for chatbots
+    image: require("../assets/images/services/chat-banner.webp"), // Consider creating a new image for chatbots
     shortDesc:
       "Intelligent AI Chatbots That Engage, Sell, and Support - Conversational AI solutions that enhance customer experiences, automate support, and drive conversions through natural, human-like interactions across multiple channels.",
     technologies: [
@@ -564,9 +564,9 @@ export const services = [
       "CRM Systems",
     ],
     detailsPageImages: {
-      first: require("../assets/images/services/chat1.jpg"),
-      second: require("../assets/images/services/chat2.jpg"),
-      third: require("../assets/images/services/chat3.jpg"),
+      first: require("../assets/images/services/chat1.webp"),
+      second: require("../assets/images/services/chat2.webp"),
+      third: require("../assets/images/services/chat3.webp"),
     },
     html: {
       firstSection: `<h2 class="text-xl font-semibold mb-4">
@@ -661,7 +661,7 @@ export const services = [
   },
   {
     title: "AI Voice Calling",
-    image: require("../assets/images/services/voice-banner.jpg"), // Consider creating a new image for voice calling
+    image: require("../assets/images/services/voice-banner.webp"), // Consider creating a new image for voice calling
     shortDesc:
       "Next-Generation AI Voice Calling - Smarter Calling, Powered by AI - Automated voice solutions that enhance customer outreach with natural conversations, intelligent response handling, and seamless CRM integration for superior engagement.",
     technologies: [
@@ -672,9 +672,9 @@ export const services = [
       "Analytics",
     ],
     detailsPageImages: {
-      first: require("../assets/images/services/voice1.jpg"),
-      second: require("../assets/images/services/voice2.jpg"),
-      third: require("../assets/images/services/voice3.jpg"),
+      first: require("../assets/images/services/voice1.webp"),
+      second: require("../assets/images/services/voice2.webp"),
+      third: require("../assets/images/services/voice3.webp"),
     },
     html: {
       firstSection: `<h2 class="text-xl font-semibold mb-4">
