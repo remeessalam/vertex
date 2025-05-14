@@ -69,7 +69,7 @@ const Header = () => {
           onClick={() => setIsOpen(!isOpen)}
         >
           <Hamburger
-            color="#000000"
+            color="#ffffff"
             size="26"
             toggled={isOpen}
             rounded
@@ -81,7 +81,7 @@ const Header = () => {
         open={isOpen}
         onClose={() => setIsOpen(false)}
         direction="right"
-        className="z-10 p-2"
+        className="z-10  bg-black"
       >
         <div className="mb-6 flex items-center justify-between px-[.7rem] py-[.4rem]">
           <img
@@ -95,13 +95,13 @@ const Header = () => {
             <X size={28} />
           </button>
         </div>
-        <div className="py-4 px-7 flex flex-col gap-4 text-black">
+        <div className="py-4 px-7 flex flex-col gap-4 text-white">
           {links.map((link) => (
             <Link
               onClick={() => setIsOpen(false)}
               key={link.name}
               to={link.path}
-              className="text-2xl font-medium"
+              className="text-2xl font-medium "
             >
               {link.name}
             </Link>

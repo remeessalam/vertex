@@ -111,3 +111,11 @@ html {
     transform: rotate(360deg);
   }
 }
+
+.EZDrawer .EZDrawer__container {
+  background: #020817 !important;
+  width: 80vw !important;
+  min-height: 100vh !important;
+  overflow-y: scroll;
+  z-index: 20;
+}
