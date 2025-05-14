@@ -152,9 +152,9 @@ const LandingPage = ({ page }) => {
                 <div
                   data-aos="fade-up"
                   key={item.title}
-                  className="text-center p-5 bg-white rounded-xl space-y-3"
+                  className="text-center p-5 bg-white rounded-xl space-y-3 text-black"
                 >
-                  <IconComponent className="w-8 h-8 mx-auto text-secondary" />
+                  <IconComponent className="w-8 h-8 mx-auto text-black" />
                   <p className="font-medium text-[.9rem] whitespace-pre-line">
                     {item.title}
                   </p>

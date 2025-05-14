@@ -34,7 +34,7 @@ const LandingHeader = () => {
   const [isOpen, setIsOpen] = React.useState(false);
   const { pathname } = useLocation();
   return (
-    <div className="fixed top-0 left-0 py-4 z-50 w-full backdrop-blur-sm bg-white">
+    <div className="fixed top-0 left-0 py-4 z-50 w-full backdrop-blur-sm bg-darkBackground">
       <div className="flex wrapper items-center gap-8 justify-between">
         <Scroll
           to="banner"
@@ -58,12 +58,12 @@ const LandingHeader = () => {
               <Scroll
                 key={link.name}
                 to={link.path}
-                className="link"
+                className="link text-white/70"
                 spy={true}
                 smooth={true}
                 offset={-90}
                 duration={1000}
-                activeClass="font-semibold text-secondary"
+                activeClass="font-semibold text-secondary text-white"
               >
                 {link.name}
               </Scroll>
@@ -71,8 +71,8 @@ const LandingHeader = () => {
               <Link
                 key={link.name}
                 to={link.path}
-                className={`link ${
-                  pathname === link.path && "font-semibold text-secondary"
+                className={`link text-white/70 ${
+                  pathname === link.path && "font-semibold text-white"
                 }`}
               >
                 {link.name}
