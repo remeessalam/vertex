@@ -57,10 +57,7 @@ const Header = () => {
               {link.name}
             </Link>
           ))}
-          <Link
-            to={`https://wa.me/${companyDetails.phone}`}
-            className="primary-btn"
-          >
+          <Link to={companyDetails.whatsapplink} className="primary-btn">
             Let's Chat <i class="fa fa-whatsapp text-xl"></i>
           </Link>
         </div>

@@ -21,9 +21,11 @@ export { logo };
 export const companyDetails = {
   name: "AI Company",
   address:
-    " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non voluptatem vero aut earum molestias recusandae.",
-  phone: "+0000000000",
+    "1-62b, Chandrapriya Nagar, Gooty (R.S), Gooty, Ananthapur Dist, Pin: 515402, Andhra Pradesh",
+  phone: "+91-9360986603",
   email: "abc@example.com",
+  whatsapplink:
+    "https://api.whatsapp.com/send/?phone=9360986603&text&type=phone_number&app_absent=0",
 };
 
 // working process
