@@ -84,11 +84,13 @@ const StatsCounter = () => {
       <div className="container mx-auto">
         <h2
           data-aos="fade-up"
+          data-aos-offset="-600"
           className="text-3xl md:text-4xl font-bold text-center mb-12 text-white"
         >
           Our Achievements
         </h2>
         <div
+          data-aos-offset="-600"
           data-aos="fade-up"
           className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"
         >

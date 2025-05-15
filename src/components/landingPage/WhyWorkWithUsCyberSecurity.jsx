@@ -62,17 +62,23 @@ const WhyWorkWithUsCyberSecurity = () => {
         <div className="text-center mb-16">
           <div
             data-aos="fade-up"
+            data-aos-offset="-600"
             className="inline-block p-3 rounded-full bg-blue-100 mb-4"
           >
             <FaShieldAlt className="text-3xl text-blue-600" />
           </div>
           <h2
             data-aos="fade-up"
+            data-aos-offset="-600"
             className="text-4xl font-extrabold text-white sm:text-5xl mb-4"
           >
             Why Work with Us
           </h2>
-          <div data-aos="fade-up" className="max-w-3xl mx-auto">
+          <div
+            data-aos="fade-up"
+            data-aos-offset="-600"
+            className="max-w-3xl mx-auto"
+          >
             <p className="text-lg text-gray-200">
               We specialize in delivering high-quality cybersecurity services
               designed to address the evolving challenges of today's digital
@@ -93,6 +99,7 @@ const WhyWorkWithUsCyberSecurity = () => {
           {benefits.map((benefit, index) => (
             <div
               data-aos="fade-up"
+              data-aos-offset="-600"
               key={index}
               className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 p-6 flex flex-col items-center text-center"
             >
@@ -105,7 +112,11 @@ const WhyWorkWithUsCyberSecurity = () => {
           ))}
         </div>
 
-        <div className="mt-16 text-center" data-aos="fade-up">
+        <div
+          className="mt-16 text-center"
+          data-aos="fade-up"
+          data-aos-offset="-600"
+        >
           <Scroll
             to={"contact"}
             spy={true}

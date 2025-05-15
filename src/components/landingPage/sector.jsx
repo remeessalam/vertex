@@ -14,6 +14,7 @@ const SectorCard = ({ icon, name }) => {
   return (
     <div
       data-aos="fade-up"
+      data-aos-offset="-600"
       className="flex-shrink-0 w-40 h-40 hover:scale-125 bg-white rounded-lg shadow-md p-4 flex flex-col items-center justify-center m-2 transition-all duration-300 hover:shadow-lg hover:bg-blue-50"
     >
       <div className="text-4xl text-blue-600 mb-3">{icon}</div>
@@ -61,6 +62,7 @@ const SectorsScroller = () => {
     <div className="w-full py-[4rem]">
       <h3
         data-aos="fade-up"
+        data-aos-offset="-600"
         className="text-2xl font-bold text-center mb-6 text-white"
       >
         Sectors Covered
