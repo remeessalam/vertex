@@ -1,12 +1,17 @@
 import React from "react";
 import {
   appDevelopmentServices,
+  cybersecurityServices,
   webDevelopmentServices,
 } from "../../data/constant";
 import { ArrowScrollButton } from "../ArrowButtons";
 
-const LandingServices = ({ isWeb }) => {
-  const services = isWeb ? webDevelopmentServices : appDevelopmentServices;
+const LandingServices = ({ isWeb, page }) => {
+  const services = isWeb
+    ? webDevelopmentServices
+    : page === "app"
+    ? appDevelopmentServices
+    : cybersecurityServices;
   return (
     <div id="services" className="py-[4rem] wrapper">
       <h2 data-aos="fade-up" className="section-heading text-center">

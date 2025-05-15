@@ -134,7 +134,7 @@ const LandingPage = ({ page }) => {
       <section className="bg-[#F7F7F9]">
         <Testimonials />
       </section>
-      <LandingServices isWeb={isWeb} />
+      <LandingServices isWeb={isWeb} page={page} />
       <Portfolio page={page} />
       <section className="py-[4rem] bg-[#D8D8D8A3]">
         <div className="wrapper space-y-3">

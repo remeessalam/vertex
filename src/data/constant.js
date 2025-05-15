@@ -14,6 +14,7 @@ import AkashMegaMartApp from "../assets/app-development-portfolio/Akash-Mega-Mar
 import FeelItMobileApp from "../assets/app-development-portfolio/FeelIt-Mobile-App.webp";
 import KlikomicsMobileApp from "../assets/app-development-portfolio/Klikomics-Mobile-App.webp";
 import AutoSnapMobileApp from "../assets/app-development-portfolio/AutoSnap-Mobile-App.webp";
+import { AiOutlineUser } from "react-icons/ai";
 export { logo };
 
 // company
@@ -113,6 +114,58 @@ export const appDevelopmentServices = [
       "We build feature-rich hybrid apps tailored to your business needs. We create mobile-friendly apps that work seamlessly across iOS and Android devices.",
   },
 ];
+// Cybersecurity Services
+export const cybersecurityServices = [
+  {
+    id: 1,
+    title: "Web Application Penetration Testing",
+    image: require("../assets/images/landingpage/web-vapt.webp"),
+    description:
+      "Identify and resolve security vulnerabilities in your web applications with our comprehensive Web VAPT services to protect against potential threats.",
+  },
+  {
+    id: 2,
+    title: "Mobile Application Penetration Testing",
+    image: require("../assets/images/landingpage/mobile-vapt.webp"),
+    description:
+      "Ensure your Android and iOS applications are secure with our in-depth penetration testing, detecting vulnerabilities before they can be exploited.",
+  },
+  {
+    id: 3,
+    title: "API Security Testing",
+    image: require("../assets/images/landingpage/api-security.webp"),
+    description:
+      "Safeguard your APIs with our expert testing services, identifying potential security gaps and protecting critical data exchanges.",
+  },
+  {
+    id: 4,
+    title: "Source Code Review & Security Analysis",
+    image: require("../assets/images/landingpage/source-code.webp"),
+    description:
+      "Analyze your source code for security weaknesses, ensuring robust protection against potential threats and malicious attacks.",
+  },
+  {
+    id: 5,
+    title: "Cloud Infrastructure Security Assessment",
+    image: require("../assets/images/landingpage/cloud-security.webp"),
+    description:
+      "Evaluate your cloud infrastructure for security vulnerabilities, safeguarding your assets and maintaining compliance.",
+  },
+  {
+    id: 6,
+    title: "Internal & External Network Penetration Testing",
+    image: require("../assets/images/landingpage/network-vapt.webp"),
+    description:
+      "Identify and address network security gaps with our internal and external penetration testing services, ensuring data integrity.",
+  },
+  {
+    id: 7,
+    title: "Thick Client Security Testing",
+    image: require("../assets/images/landingpage/thick-client.webp"),
+    description:
+      "Secure your thick client applications through meticulous testing, identifying potential vulnerabilities in both client and server interactions.",
+  },
+];
 
 // testimonials
 export const testimonials = [
@@ -155,6 +208,57 @@ and fully aligned with our business objectives. Their expertise in blockchain al
 helped streamline our operations, and the results speak for themselves. We’ve seen 
 substantial growth in our business thanks to their tailored solutions`,
     img: require("../assets/images/testimonials/4.jpg"),
+  },
+];
+export const cybersecuritytestimonials = [
+  {
+    name: "Philninan",
+    location: "UAE",
+    rating: "⭐⭐⭐⭐⭐",
+    desc: `Dheeraj was great to work with. We didn’t even have to explain much—he just got what we needed right away. He found issues in our web apps that we completely missed. Super sharp and really easy to deal with. Honestly, one of the best cybersecurity pros I’ve worked with.`,
+    icon: <AiOutlineUser />,
+  },
+  {
+    name: "Rumaligeecon",
+    location: "UK",
+    rating: "⭐⭐⭐⭐⭐",
+    desc: `Brilliant service. Dheeraj handled everything professionally and made the whole process feel simple. He knows his stuff, and it shows. I felt confident throughout that our systems were in safe hands.`,
+    icon: <AiOutlineUser />,
+  },
+  {
+    name: "Naveedabbasi705",
+    location: "Saudi Arabia",
+    rating: "⭐⭐⭐⭐⭐",
+    desc: `Dheeraj was on point from the start. He understood the scope, gave us a proper rundown of the risks, and was super responsive. He’s not just technical—he communicates really well too, which made things easy on our end.`,
+    icon: <AiOutlineUser />,
+  },
+  {
+    name: "Albatrosstechn",
+    location: "India",
+    rating: "⭐⭐⭐⭐⭐",
+    desc: `Top-quality work again! Dheeraj helped us fix some serious gaps in our security. He’s fast, reliable, and we’ve come back to him multiple times now. Definitely someone you want in your corner when it comes to cyber protection.`,
+    icon: <AiOutlineUser />,
+  },
+  {
+    name: "Microdigitaltec",
+    location: "Qatar",
+    rating: "⭐⭐⭐⭐⭐",
+    desc: `Very pleased with the way Dheeraj handled our cybersecurity needs. Straightforward, knowledgeable, and always willing to explain things when we had questions. Great experience overall.`,
+    icon: <AiOutlineUser />,
+  },
+  {
+    name: "Holidaefiver",
+    location: "Thailand",
+    rating: "⭐⭐⭐⭐⭐",
+    desc: `Always delivers great work. Dheeraj helped us secure our app and explained everything clearly. No fluff, just results. Appreciate the consistency.`,
+    icon: <AiOutlineUser />,
+  },
+  {
+    name: "Carlosg610",
+    location: "Chile",
+    rating: "⭐⭐⭐⭐",
+    desc: `Everything went fine. Dheeraj did a good job and was very professional throughout. Took a little longer than I expected, but he kept me in the loop, and the final outcome was solid. Would work with him again.`,
+    icon: <AiOutlineUser />,
   },
 ];
 

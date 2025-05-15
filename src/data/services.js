@@ -766,4 +766,97 @@ export const services = [
   `,
     },
   },
+  {
+    title: "Cybersecurity",
+    image: require("../assets/images/services/cybersecurity-banner.webp"),
+    shortDesc:
+      "Comprehensive Cybersecurity Solutions to Protect Your Digital Assets - Stay ahead of threats with proactive, strategic security services designed to safeguard your business.",
+    technologies: [
+      "OSCP",
+      "CRTP",
+      "CEH",
+      "Burp Suite",
+      "OWASP ZAP",
+      "Metasploit",
+      "Kali Linux",
+      "Wireshark",
+    ],
+    detailsPageImages: {
+      first: require("../assets/images/services/cyber1.webp"),
+      second: require("../assets/images/services/cyber2.webp"),
+      third: require("../assets/images/services/cyber3.webp"),
+    },
+    html: {
+      firstSection: `<h2 class="text-xl font-semibold mb-4">
+              Cybersecurity: Protecting Your Digital Frontier
+            </h2>
+            <p class="mb-10">
+              In today’s rapidly evolving digital landscape, cybersecurity is not just a priority—it’s a necessity. We provide advanced security services that identify and mitigate risks before they impact your business.
+            </p>
+  
+            <h2 class="text-xl font-semibold mb-4">
+              Our Cybersecurity Services:
+            </h2>
+            <ul class="list-disc pl-6">
+              <li class="mb-3">
+                <span class="font-semibold">Web Application Penetration Testing (Web VAPT):</span> Identify vulnerabilities in your web applications and safeguard them against attacks.
+              </li>
+              <li class="mb-3">
+                <span class="font-semibold">Mobile Application Penetration Testing:</span> Comprehensive security testing for both Android and iOS applications to ensure robust protection.
+              </li>
+              <li class="mb-3">
+                <span class="font-semibold">API Security Testing:</span> Protect sensitive data and prevent unauthorized access by testing your APIs for potential vulnerabilities.
+              </li>
+              <li class="mb-3">
+                <span class="font-semibold">Source Code Review & Security Analysis:</span> Review your source code to identify security weaknesses and mitigate potential threats.
+              </li>
+              <li class="mb-3">
+                <span class="font-semibold">Cloud Infrastructure Security Assessment:</span> Evaluate and secure your cloud infrastructure against breaches and data leaks.
+              </li>
+              <li class="mb-3">
+                <span class="font-semibold">Network Penetration Testing:</span> Perform both internal and external network testing to identify and eliminate security gaps.
+              </li>
+            </ul>`,
+
+      secondSection: `<h2 class="text-xl font-semibold mb-4">
+                  Our Approach to Cybersecurity:
+                </h2>
+                <ul class="list-decimal pl-6 mb-6">
+                  <li class="mb-3">
+                    <span class="font-semibold">Discovery & Assessment:</span> We start by understanding your current security posture, identifying potential risks, and creating a strategic security roadmap.
+                  </li>
+                  <li class="mb-3">
+                    <span class="font-semibold">Vulnerability Analysis:</span> Our experts conduct thorough vulnerability assessments to uncover potential entry points and mitigate risks effectively.
+                  </li>
+                  <li class="mb-3">
+                    <span class="font-semibold">Penetration Testing:</span> Simulated attacks and controlled exploits to evaluate your defenses and recommend actionable improvements.
+                  </li>
+                  <li class="mb-3">
+                    <span class="font-semibold">Remediation & Reporting:</span> We provide clear, actionable reports detailing vulnerabilities and specific steps to resolve them.
+                  </li>
+                  <li class="mb-3">
+                    <span class="font-semibold">Continuous Monitoring & Support:</span> Post-project support to ensure ongoing security and rapid response to emerging threats.
+                  </li>
+                </ul>`,
+
+      thirdSection: `<h2 class="text-xl font-semibold mb-4">Why Choose Us?</h2>
+                <ul class="list-disc pl-6 mb-6">
+                  <li class="mb-3">
+                    <span class="font-semibold">Industry Expertise:</span> 5+ years of experience in delivering top-tier security solutions across industries including finance, healthcare, and government.
+                  </li>
+                  <li class="mb-3">
+                    <span class="font-semibold">Certified Experts:</span> Our in-house team holds industry-leading certifications like OSCP, CRTP, and CEH, ensuring expert-level protection.
+                  </li>
+                  <li class="mb-3">
+                    <span class="font-semibold">Scalable Solutions:</span> Our services are tailored to your specific needs, from startups to large enterprises.
+                  </li>
+                  <li class="mb-3">
+                    <span class="font-semibold">Advanced Tools & Techniques:</span> We leverage the latest tools like Burp Suite, OWASP ZAP, and Metasploit for comprehensive testing and analysis.
+                  </li>
+                  <li class="mb-3">
+                    <span class="font-semibold">Transparency & Integrity:</span> We maintain open communication throughout the process, ensuring you are informed every step of the way.
+                  </li>
+                </ul>`,
+    },
+  },
 ];
