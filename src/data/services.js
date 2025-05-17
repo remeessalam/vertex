@@ -2,8 +2,10 @@ export const services = [
   {
     title: "Web Development",
     image: require("../assets/images/services/web-dev-banner.webp"),
-    shortDesc:
-      "Professional Web Development That Builds Trust From the First Click - Custom, responsive websites designed to convert visitors into customers and grow your online presence effectively.",
+    shortDesc: `We don’t just design beautiful websites—we build fast, secure, SEO-
+optimized platforms that grow your brand and drive engagement.
+Every site is crafted with performance, mobile responsiveness, and
+your business goals in mind.`,
     technologies: [
       "React",
       "Angular",
@@ -134,8 +136,10 @@ export const services = [
   {
     title: "App Development",
     image: require("../assets/images/services/app-dev-banner.webp"),
-    shortDesc:
-      "Comprehensive Mobile App Development That Delivers Real Value - Building custom iOS and Android applications that engage users, solve business challenges, and drive measurable results for your organization.",
+    shortDesc: `From iOS to Android and cross-platform tools, we create mobile
+experiences that are intuitive, secure, and scalable. Whether it’s a
+customer-facing product or internal app, we deliver user-first design
+with solid performance.`,
     technologies: ["Swift", "React Native", "Flutter", "Java", "Kotlin"],
     detailsPageImages: {
       first: require("../assets/images/services/app1.webp"),
@@ -228,8 +232,9 @@ export const services = [
   {
     title: "AI Development",
     image: require("../assets/images/services/ai-dev-banner.webp"),
-    shortDesc:
-      "Advanced AI Development That Makes Your Business Smarter - Custom artificial intelligence solutions designed to automate processes, enhance decision-making, and create competitive advantages for your business operations.",
+    shortDesc: `Our AI services are practical, not performative. We develop tailored
+machine learning solutions that automate operations, enhance
+decision-making, and make your digital products smarter.`,
     technologies: [
       "Machine Learning",
       "NLP",
@@ -338,8 +343,9 @@ export const services = [
   {
     title: "Data Analytics & Business Intelligence",
     image: require("../assets/images/services/data-banner.webp"),
-    shortDesc:
-      "Comprehensive Data Analytics & Business Intelligence That Drive Results - Transform raw data into actionable insights with powerful dashboards, predictive analytics, and strategic reporting solutions tailored to your business needs.",
+    shortDesc: `Your data is a goldmine—if used right. We help you unlock its value
+with dynamic dashboards, visual reports, and forecasting tools
+tailored to your KPIs and decision-making needs.`,
     technologies: [
       "Power BI",
       "Tableau",
@@ -449,8 +455,9 @@ export const services = [
   {
     title: "Cloud Solutions",
     image: require("../assets/images/services/cloud-banner.webp"),
-    shortDesc:
-      "Enterprise-Grade Cloud Solutions That Scale With You - Comprehensive cloud migration, architecture design, and optimization services to enhance performance, security, and cost-efficiency for your business infrastructure.",
+    shortDesc: `From migration to cloud-native apps, we design cloud strategies that
+offer flexibility, security, and performance—built on AWS, Azure, or
+Google Cloud.`,
     technologies: ["AWS", "Azure", "GCP", "CI/CD Pipelines", "DevOps"],
     detailsPageImages: {
       first: require("../assets/images/services/cloud1.webp"),
@@ -555,8 +562,9 @@ export const services = [
   {
     title: "AI Chatbots",
     image: require("../assets/images/services/chat-banner.webp"), // Consider creating a new image for chatbots
-    shortDesc:
-      "Intelligent AI Chatbots That Engage, Sell, and Support - Conversational AI solutions that enhance customer experiences, automate support, and drive conversions through natural, human-like interactions across multiple channels.",
+    shortDesc: `Our AI-powered chatbots are designed to support your business
+goals—whether it’s handling customer service, qualifying leads, or
+improving onboarding with human-like interactions.`,
     technologies: [
       "NLP",
       "Conversation Design",
@@ -662,8 +670,9 @@ export const services = [
   {
     title: "AI Voice Calling",
     image: require("../assets/images/services/voice-banner.webp"), // Consider creating a new image for voice calling
-    shortDesc:
-      "Next-Generation AI Voice Calling - Smarter Calling, Powered by AI - Automated voice solutions that enhance customer outreach with natural conversations, intelligent response handling, and seamless CRM integration for superior engagement.",
+    shortDesc: `Our voice solutions automate outbound calls with natural speech,
+real-time adaptability, and built-in analytics—ideal for follow-ups,
+reminders, and customer engagement at scale.`,
     technologies: [
       "Speech Recognition",
       "NLP",
