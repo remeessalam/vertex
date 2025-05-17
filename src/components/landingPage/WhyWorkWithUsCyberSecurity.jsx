@@ -14,45 +14,39 @@ const WhyWorkWithUsCyberSecurity = () => {
   const benefits = [
     {
       icon: <FaUserTie className="text-4xl text-blue-600 mb-4" />,
-      title: "Experienced team with deep industry knowledge",
+      title: "Certified In-House Experts",
       description:
-        "Our cybersecurity experts bring years of industry experience to every project.",
+        "All assessments are conducted by full-time professionals with certifications including OSCP, CRTP, CEH, and more. We never outsource or rely on freelancers.",
     },
     {
       icon: <MdSecurity className="text-4xl text-blue-600 mb-4" />,
-      title: "Certified professionals (no freelancers)",
+      title: "Real-World Testing Methodologies",
       description:
-        "Our team holds prestigious certifications including OSCP, CRTP, CEH, and more.",
+        "Our approach simulates real attacker behavior, giving you an accurate picture of your security posture—not just a scan report.",
     },
     {
       icon: <FaHome className="text-4xl text-blue-600 mb-4" />,
-      title: "In-house team — no outsourcing",
+      title: "Tailored Solutions for Every Client",
       description:
-        "All work is performed by our dedicated in-house security professionals.",
+        "No one-size-fits-all security here. We build custom strategies based on your business goals, tech stack, and risk exposure.",
     },
     {
       icon: <FaPuzzlePiece className="text-4xl text-blue-600 mb-4" />,
-      title: "Custom solutions designed for your specific needs",
+      title: "Transparent Engagements",
       description:
-        "We create tailored security strategies addressing your unique challenges.",
+        "No hidden costs, unclear deliverables, or vendor lock-in. We keep everything clear, upfront, and documented.",
     },
     {
       icon: <FaMoneyBillWave className="text-4xl text-blue-600 mb-4" />,
-      title: "Transparent processes with no hidden costs",
+      title: "Ongoing Support",
       description:
-        "We maintain complete transparency in our methods and pricing.",
+        "Security isn’t a one-time activity. We stay with you post-assessment to support remediation, retesting, and advisory.",
     },
     {
       icon: <FaHeadset className="text-4xl text-blue-600 mb-4" />,
-      title: "Reliable support long after project delivery",
+      title: "Proven Track Record",
       description:
-        "Our commitment extends beyond project completion with ongoing support.",
-    },
-    {
-      icon: <FaTrophy className="text-4xl text-blue-600 mb-4" />,
-      title: "Proven track record of successful engagements",
-      description:
-        "Our history of successful projects demonstrates our expertise and reliability.",
+        "We’ve successfully delivered 150+ projects across critical sectors, consistently earning high client satisfaction and retention rates.",
     },
   ];
 
@@ -123,7 +117,7 @@ const WhyWorkWithUsCyberSecurity = () => {
             smooth={true}
             offset={-90}
             duration={1000}
-            className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 text-lg"
+            className="bg-blue-600 hover:bg-white cursor-pointer hover:text-blue-600 text-white font-bold py-3 px-8 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 text-lg"
           >
             Contact Our Security Team
           </Scroll>

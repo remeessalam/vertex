@@ -55,10 +55,10 @@ const CybersecurityTestimonials = () => {
     <div className="py-[4rem] wrapper grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-5">
       <div data-aos="fade-up" className="grid grid-cols-2 gap-3 sm:gap-5">
         {[
-          "Top Cybersecurity Service Providers",
-          "Leading Penetration Testing Experts",
-          "Premier Cloud Security Consultants",
-          "Trusted Network Security Specialists",
+          "Top-Tier Cybersecurity Solutions for Enterprises & Startups",
+          "Certified Penetration Testing Experts with Real-World Threat Simulation",
+          "Trusted Network & Endpoint Protection Specialists",
+          "Proven Track Record in Threat Detection and Incident Response",
         ].map((text, idx) => (
           <div
             key={idx}

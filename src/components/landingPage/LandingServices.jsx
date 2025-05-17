@@ -21,7 +21,9 @@ const LandingServices = ({ isWeb, page }) => {
       >
         {isWeb
           ? "Our Web Development Services"
-          : "Our App Development Services"}
+          : page === "app"
+          ? "Our App Development Services"
+          : "Our Core Services"}
       </h2>
       <div
         data-aos="fade-up"
@@ -31,7 +33,7 @@ const LandingServices = ({ isWeb, page }) => {
         {services.map((item, i) => (
           <div
             key={item.title}
-            className={`h-full px-6 py-9 relative odd:bg-secondary/40 even:bg-primary/40 odd:hover:bg-primary/40 even:hover:bg-secondary/70 rounded-xl transition-all duration-300 overflow-hidden space-y-6 ${
+            className={`h-full px-6 py-9 relative bg-secondary/40 0 hover:bg-primary/40  rounded-xl transition-all duration-300 overflow-hidden space-y-6 ${
               i === 2 ? "order-3" : ""
             }`}
           >

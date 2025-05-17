@@ -95,6 +95,9 @@ const LandingPage = ({ page }) => {
             the competitive digital landscape.`}
             </p>
           </div>
+          <section className="">
+            <Testimonials />
+          </section>
         </div>
         <div className="">
           <ReactPlayer
@@ -131,9 +134,9 @@ const LandingPage = ({ page }) => {
       </section>
 
       <ContactForm headline="Book A Free Consultation" />
-      <section className="bg-[#F7F7F9]">
+      {/* <section className="bg-[#F7F7F9]">
         <Testimonials />
-      </section>
+      </section> */}
       <LandingServices isWeb={isWeb} page={page} />
       <Portfolio page={page} />
       <section className="py-[4rem] bg-[#D8D8D8A3]">

@@ -123,49 +123,49 @@ export const cybersecurityServices = [
     title: "Web Application Penetration Testing",
     image: require("../assets/images/landingpage/web-vapt.webp"),
     description:
-      "Identify and resolve security vulnerabilities in your web applications with our comprehensive Web VAPT services to protect against potential threats.",
+      "Uncover and eliminate vulnerabilities in your web applications using industry-standard VAPT methodologies. We simulate real-world attack scenarios to ensure robust protection.",
   },
   {
     id: 2,
-    title: "Mobile Application Penetration Testing",
+    title: "Mobile Application Security Testing (Android & iOS)",
     image: require("../assets/images/landingpage/mobile-vapt.webp"),
     description:
-      "Ensure your Android and iOS applications are secure with our in-depth penetration testing, detecting vulnerabilities before they can be exploited.",
+      "Protect your mobile apps from data leaks, insecure storage, and runtime attacks. We deliver platform-specific security assessments across both Android and iOS ecosystems.",
   },
   {
     id: 3,
-    title: "API Security Testing",
+    title: "API Security & Endpoint Testing",
     image: require("../assets/images/landingpage/api-security.webp"),
     description:
-      "Safeguard your APIs with our expert testing services, identifying potential security gaps and protecting critical data exchanges.",
+      "Secure your APIs against injection flaws, broken authentication, and data exposure. We test both documented and undocumented endpoints to ensure secure data exchange.",
   },
   {
     id: 4,
     title: "Source Code Review & Security Analysis",
     image: require("../assets/images/landingpage/source-code.webp"),
     description:
-      "Analyze your source code for security weaknesses, ensuring robust protection against potential threats and malicious attacks.",
+      "Conduct deep-dive audits of your codebase to identify logic flaws, insecure patterns, and overlooked vulnerabilities. Ideal for high-stakes or compliance-driven environments.",
   },
   {
     id: 5,
-    title: "Cloud Infrastructure Security Assessment",
+    title: "Cloud Infrastructure Security Assessment (AWS, Azure, GCP)",
     image: require("../assets/images/landingpage/cloud-security.webp"),
     description:
-      "Evaluate your cloud infrastructure for security vulnerabilities, safeguarding your assets and maintaining compliance.",
+      "Detect misconfigurations, privilege escalations, and data exposure risks in your cloud environments. We help you harden your cloud setup while maintaining compliance.",
   },
   {
     id: 6,
     title: "Internal & External Network Penetration Testing",
     image: require("../assets/images/landingpage/network-vapt.webp"),
     description:
-      "Identify and address network security gaps with our internal and external penetration testing services, ensuring data integrity.",
+      "Evaluate your organization’s network defenses from both inside and outside. Our testing reveals weaknesses in access control, segmentation, and system hardening.",
   },
   {
     id: 7,
-    title: "Thick Client Security Testing",
+    title: "Thick Client Security Assessments",
     image: require("../assets/images/landingpage/thick-client.webp"),
     description:
-      "Secure your thick client applications through meticulous testing, identifying potential vulnerabilities in both client and server interactions.",
+      "Test your desktop applications for memory exploits, insecure data storage, and client-side logic flaws. We assess both application and server interactions for end-to-end protection.",
   },
 ];
 
