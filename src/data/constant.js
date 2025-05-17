@@ -19,7 +19,7 @@ export { logo };
 
 // company
 export const companyDetails = {
-  name: "AI Company",
+  name: "Vertex Agent Ai",
   address:
     "1-62b, Chandrapriya Nagar, Gooty (R.S), Gooty, Ananthapur Dist, Pin: 515402, Andhra Pradesh",
   phone: "+91-9360986603",
@@ -174,7 +174,7 @@ export const testimonials = [
   {
     name: "Sarah M",
     position: "Marketing Director, SecureChain Innovations",
-    desc: `Our experience with AI Company was excellent. They completely 
+    desc: `Our experience with Vertex Agent Ai was excellent. They completely 
 understood our vision and delivered a beautifully designed website that truly 
 represents our brand. The team was efficient, responsive, and made the entire 
 process easy. Since launching, we've seen a noticeable increase in website traffic 
@@ -184,7 +184,7 @@ and user engagement. We’re thrilled with the outcome!`,
   {
     name: "Mark T.",
     position: "Product Manager, FinTech Group",
-    desc: `The UX/UI design team at AI Company did an outstanding job on our 
+    desc: `The UX/UI design team at Vertex Agent Ai did an outstanding job on our 
 project. They took the time to understand our users’ needs and delivered a design 
 that is both functional and visually appealing. Our users find the interface intuitive 
 and easy to navigate, and as a result, our engagement rates have improved 
@@ -194,7 +194,7 @@ significantly.`,
   {
     name: "Jason K",
     position: "Creative Director, PlayX Studios",
-    desc: `We worked with AI Company to develop a mobile and console game, 
+    desc: `We worked with Vertex Agent Ai to develop a mobile and console game, 
 and the results were fantastic. From the initial concept to the final product, their 
 team was incredibly creative and professional. The game is fun, engaging, and has 
 received great reviews from players. We couldn’t be more pleased with the 
@@ -204,7 +204,7 @@ outcome and look forward to future collaborations.`,
   {
     name: "Thomas P",
     position: "Managing Director, TechFlow Solutions",
-    desc: `From the very beginning, we knew we found the right team at AI Company.
+    desc: `From the very beginning, we knew we found the right team at Vertex Agent Ai.
     They worked closely with us to develop a mobile app that was user-friendly 
 and fully aligned with our business objectives. Their expertise in blockchain also 
 helped streamline our operations, and the results speak for themselves. We’ve seen 
