@@ -105,8 +105,14 @@ const Home = () => {
               Welcome to{" "}
               <span className="gradient-text">Vertex Agent Ai – </span>
               <br />
-              <span className="text-white">Empowering Your Digital Growth</span>
+              <span className="text-white">
+                Your edge in AI, DATA & Cyber Solutions
+              </span>
             </h1>
+            <p className="sm:text-lg">
+              We build intelligent agents, automate data workflows and enhance
+              digital security to power next gen business.
+            </p>
             <div
               data-aos="fade-up"
               className="grid sm:grid-cols-2 gap-5 md:gap-14 mt-5"
@@ -280,107 +286,56 @@ const Home = () => {
         >
           Why Work With Us?
         </h2>
-        <div className="flex flex-col gap-5">
-          <div
-            data-aos="fade-up"
-            className="bg-[#6B308C] min-h-[50vh] relative p-5 flex flex-col-reverse md:flex-row items-center gap-4 rounded-xl overflow-hidden"
-          >
-            <div className="flex flex-col md:w-8/12 lg:w-9/12">
-              <div className="md:px-[2.5rem]">
-                <p className="md:text-lg text-white font-semibold">
-                  Our team combines creativity, technical expertise, and a
-                  passion for excellence to bring your vision to life. With
-                  attention to detail and a client-first approach, we ensure
-                  every project meets your unique requirements and delivers
-                  lasting results.
-                </p>
-                <Quote
-                  className="size-10 fill-white/20 self-end mt-3"
-                  strokeWidth={0}
-                />
+        <div className="grid md:grid-cols-2 gap-5">
+          {[
+            {
+              bgColor: "#6B308C",
+              text: "Our team combines creativity, technical expertise, and a passion for excellence to bring your vision to life. With attention to detail and a client-first approach, we ensure every project meets your unique requirements and delivers lasting results.",
+              imgSrc: whyWorkWithUs1,
+              imgPosition: "top-1/2 md:-translate-y-1/2",
+            },
+            {
+              bgColor: "#FE7624",
+              text: "At Vertex Agent Ai, we deliver excellence across web and app development, UI/UX design, game development, and blockchain solutions. Our expertise ensures innovative, scalable results tailored to your goals.",
+              imgSrc: whyWorkWithUs2,
+              imgPosition: "bottom-0",
+            },
+            {
+              bgColor: "#F45C7B",
+              text: "Transform your digital presence with our robust web and app solutions. From feature-rich websites to high-performing mobile apps, we ensure seamless functionality and cutting-edge design to achieve your business goals.",
+              imgSrc: whyWorkWithUs3,
+              imgPosition: "bottom-0",
+            },
+            {
+              bgColor: "#507FD7",
+              text: "At Vertex Agent Ai, we deliver tailored solutions across industries. From enhancing patient care in Healthcare to empowering E-commerce and driving innovation in Technology, we cater to diverse business needs with precision.",
+              imgSrc: whyWorkWithUs4,
+              imgPosition: "bottom-0",
+            },
+          ].map(({ bgColor, text, imgSrc, imgPosition }, index) => (
+            <div
+              key={index}
+              data-aos="fade-up"
+              className={`bg-[${bgColor}] min-h-[50vh] relative p-5 flex flex-col-reverse md:flex-row items-center gap-4 rounded-xl overflow-hidden`}
+            >
+              <div className="flex flex-col md:w-8/12 lg:w-9/12 z-10">
+                <div className="md:px-[2.5rem]">
+                  <p className="md:text-lg text-white font-semibold z-10">
+                    {text}
+                  </p>
+                  <Quote
+                    className="size-10 fill-white/20 self-end mt-3"
+                    strokeWidth={0}
+                  />
+                </div>
               </div>
+              <img
+                src={imgSrc}
+                alt=""
+                className={`md:absolute  md:brightness-50 right-0 ${imgPosition} max-h-[16rem] md:max-h-[24rem] object-contain`}
+              />
             </div>
-            <img
-              src={whyWorkWithUs1}
-              alt=""
-              className="md:absolute right-0 top-1/2 md:-translate-y-1/2 max-h-[16rem] md:max-h-[25rem] object-contain"
-            />
-          </div>
-
-          <div
-            data-aos="fade-up"
-            className="bg-[#FE7624] min-h-[50vh] relative p-5 flex flex-col-reverse md:flex-row items-center gap-4 rounded-xl overflow-hidden"
-          >
-            <div className="flex flex-col md:w-8/12 lg:w-9/12">
-              <div className="md:px-[2.5rem]">
-                <p className="md:text-lg text-white font-semibold">
-                  At Vertex Agent Ai, we deliver excellence across web and app
-                  development, UI/UX design, game development, and blockchain
-                  solutions. Our expertise ensures innovative, scalable results
-                  tailored to your goals.
-                </p>
-                <Quote
-                  className="size-10 fill-white/20 self-end mt-3"
-                  strokeWidth={0}
-                />
-              </div>
-            </div>
-            <img
-              src={whyWorkWithUs2}
-              alt=""
-              className="md:absolute right-0 bottom-0 max-h-[16rem] md:max-h-[24rem] object-contain"
-            />
-          </div>
-
-          <div
-            data-aos="fade-up"
-            className="bg-[#F45C7B] min-h-[50vh] relative p-5 flex flex-col-reverse md:flex-row items-center gap-4 rounded-xl overflow-hidden"
-          >
-            <div className="flex flex-col md:w-8/12 lg:w-9/12">
-              <div className="md:px-[2.5rem]">
-                <p className="md:text-lg text-white font-semibold">
-                  Transform your digital presence with our robust web and app
-                  solutions. From feature-rich websites to high-performing
-                  mobile apps, we ensure seamless functionality and cutting-edge
-                  design to achieve your business goals.
-                </p>
-                <Quote
-                  className="size-10 fill-white/20 self-end mt-3"
-                  strokeWidth={0}
-                />
-              </div>
-            </div>
-            <img
-              src={whyWorkWithUs3}
-              alt=""
-              className="md:absolute right-0 bottom-0 max-h-[16rem] md:max-h-[22rem] object-contain"
-            />
-          </div>
-
-          <div
-            data-aos="fade-up"
-            className="bg-[#507FD7] min-h-[50vh] relative p-5 flex flex-col-reverse md:flex-row items-center gap-4 rounded-xl overflow-hidden"
-          >
-            <div className="flex flex-col md:w-8/12 lg:w-9/12">
-              <div className="md:px-[2.5rem]">
-                <p className="md:text-lg text-white font-semibold">
-                  At Vertex Agent Ai, we deliver tailored solutions across
-                  industries. From enhancing patient care in Healthcare to
-                  empowering E-commerce and driving innovation in Technology, we
-                  cater to diverse business needs with precision.
-                </p>
-                <Quote
-                  className="size-10 fill-white/20 self-end mt-3"
-                  strokeWidth={0}
-                />
-              </div>
-            </div>
-            <img
-              src={whyWorkWithUs4}
-              alt=""
-              className="md:absolute right-0 bottom-0 max-h-[16rem] md:max-h-[22rem] object-contain"
-            />
-          </div>
+          ))}
         </div>
       </section>
       <BlogsSection />

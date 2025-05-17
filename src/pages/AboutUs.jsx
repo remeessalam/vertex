@@ -6,6 +6,7 @@ import img1 from "../assets/images/aboutus-1.png";
 import img2 from "../assets/images/aboutus-2.png";
 import { Link } from "react-router-dom";
 import { ArrowLinkButton } from "../components/ArrowButtons";
+import AboutCompany from "../components/website/AboutCompany";
 
 const ContactForm = lazy(() => import("../components/ContactForm"));
 const WorkProcess = lazy(() => import("../components/WorkProcess"));
@@ -28,22 +29,18 @@ const AboutUs = () => {
             className="pt-[10rem] pb-[3rem] h-full wrapper text-white z-10 flex flex-col gap-3 justify-center items-center"
           >
             <h1 className="heading-2 max-w-5xl text-center">
-              We are expert professionals. We can turn your business idea into a
-              real software solution.
+              Helping Businesses Move Forward with Technology That Works
             </h1>
             <p className="max-w-5xl text-center text-[1.1rem]">
-              We are a team of dedicated professionals passionate about
-              transforming business ideas into cutting-edge software solutions.
-              With decades of combined experience, we specialize in custom web
-              and app development, UI/UX design, blockchain technology, and game
-              development. Our approach is rooted in understanding the unique
-              needs of our clients, offering tailored solutions that drive
-              growth and innovation.
+              We're a passionate team of innovators, engineers, and
+              problem-solvers dedicated to creating meaningful technology that
+              drives real value.
             </p>
-            <ArrowLinkButton to="/contact">Contact Us</ArrowLinkButton>
+            <ArrowLinkButton to="/contact"> Get in touch</ArrowLinkButton>
           </div>
         </div>
       </section>
+      <AboutCompany />
       <ServicesWeProvide />
       <section className="bg-[#F7F7F9]">
         <Testimonials />
