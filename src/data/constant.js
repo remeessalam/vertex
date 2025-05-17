@@ -60,28 +60,28 @@ export const webDevelopmentServices = [
     title: "E-commerce Websites",
     image: require("../assets/images/landingpage/ecommerce.webp"),
     description:
-      "Empowering your online business with tailored ecommerce solutions. Our platforms boost customer engagement, streamline operations, and drive revenue growth. ",
+      "Scalable online stores tailored to your brand and users. We streamline your sales process, optimize customer experience, and integrate with leading payment and inventory systems.",
   },
   {
     id: 2,
-    title: "Social Media Websites",
+    title: "Social Media Platforms",
     image: require("../assets/images/landingpage/socialmedia.webp"),
     description:
-      "Get custom social media websites that captivate and engage your audience, driving growth and brand loyalty effortlessly",
+      "We build social platforms that drive engagement, enable user interaction, and support seamless content sharing—with features like real-time chat, feeds, and profiles.",
   },
   {
     id: 3,
-    title: "Landing Websites",
+    title: "Landing Page Websites",
     image: require("../assets/images/landingpage/landing.webp"),
     description:
-      " Creating high-converting landing pages that capture attention and drive action. Tailored designs that showcase your brand’s message and maximize conversions.",
+      "High-converting landing pages that spotlight your offers and drive action. We optimize every pixel for clarity, speed, and conversion.",
   },
   {
     id: 4,
-    title: "Custom Websites",
+    title: "Custom Business Websites",
     image: require("../assets/images/landingpage/customweb.webp"),
     description:
-      "Delivering tailor-made websites designed to meet your unique business needs. Our solutions blend creativity and functionality for an exceptional online experience.",
+      "Built from scratch for your specific business needs—our custom websites combine performance with creativity to reflect your brand and drive your KPIs.",
   },
 ];
 
@@ -357,6 +357,35 @@ export const appHelpingResult = [
   {
     title: "Transparency & Accountability",
     desc: "Regular updates, clear timelines, and full ownership of results.",
+    styles:
+      "bg-[#E85535] col-span-2 md:col-span-1 w-1/2 mx-auto md:w-full lg:rotate-[18deg] lg:translate-y-[8rem]",
+  },
+];
+
+export const webHelpingResult = [
+  {
+    title: "Collaborative Partnerships",
+    desc: "From ideation to launch, we work as your strategic tech partner.",
+    styles: "bg-[#7C42DA] lg:rotate-[-18deg] lg:translate-y-[8rem]",
+  },
+  {
+    title: "Agile and Adaptive",
+    desc: "We iterate fast to match your business pace and industry demands.",
+    styles: "bg-[#F8B000] lg:rotate-[-10deg] lg:translate-y-[3rem]",
+  },
+  {
+    title: "Quality Assurance at Every Step",
+    desc: "Rigorous testing and review cycles ensure bug-free, reliable results.",
+    styles: "bg-[#B94391]",
+  },
+  {
+    title: "Customer-Centric Approach",
+    desc: "We listen closely and optimize your website to exceed expectations.",
+    styles: "bg-[#D1B9F7] lg:rotate-[10deg] lg:translate-y-[3rem]",
+  },
+  {
+    title: "Full Transparency",
+    desc: "Expect regular updates, detailed timelines, and accountability from day one.",
     styles:
       "bg-[#E85535] col-span-2 md:col-span-1 w-1/2 mx-auto md:w-full lg:rotate-[18deg] lg:translate-y-[8rem]",
   },

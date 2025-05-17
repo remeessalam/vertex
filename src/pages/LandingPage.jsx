@@ -21,7 +21,7 @@ import whyWorkWithUs4 from "../assets/images/whyworkwithus4.png";
 import LandingServices from "../components/landingPage/LandingServices";
 import { ArrowScrollButton } from "../components/ArrowButtons";
 import Portfolio from "../components/Portfolio";
-import { appHelpingResult } from "../data/constant";
+import { appHelpingResult, webHelpingResult } from "../data/constant";
 
 const ContactForm = lazy(() => import("../components/ContactForm"));
 const Testimonials = lazy(() => import("../components/Testimonials"));
@@ -64,7 +64,7 @@ const industries = [
 const LandingPage = ({ page }) => {
   const isWeb = page === "web";
 
-  const helpingResult = isWeb ? "" : appHelpingResult;
+  const helpingResult = isWeb ? webHelpingResult : appHelpingResult;
   return (
     <>
       <section id="banner" className="relative min-h-screen bg-black/50">
@@ -78,7 +78,9 @@ const LandingPage = ({ page }) => {
               <span>{isWeb ? "Web Development" : "App Development"}</span>
             </div>
             <h1 data-aos="fade-up" className="heading text-white">
-              {isWeb ? "" : "We build mobile apps people love to use."}
+              {isWeb
+                ? "Turn Visitors Into Customers With Smart, Scalable Web Design"
+                : "We build mobile apps people love to use."}
               {/* <span className="gradient-text">
                 {" "}
                 {isWeb ? "Web Solutions" : "App Solutions"}
@@ -87,10 +89,9 @@ const LandingPage = ({ page }) => {
             </h1>
             <p data-aos="fade-up" className="text-white text-lg">
               {isWeb
-                ? `We design and develop user-centric websites that streamline your
-              business processes, boost engagement, and deliver seamless
-              experiences across devices. Our solutions are tailored to meet
-              your unique needs and drive measurable results.
+                ? ` From strategy to launch, we build websites that not only look great but
+also drive results—designed to optimize user journeys and support your business
+growth.
               `
                 : ` From concept to launch, we design high-performing Android, iOS, and
 cross-platform apps that delight users, solve real problems, and help your business

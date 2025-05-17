@@ -61,8 +61,18 @@ const Testimonials = ({ page }) => {
     "Serving Clients in 7+ Countries",
     "100K+ Active Users on Apps Built by Us",
   ];
+  const webTrustSignals = [
+    " Trusted by 100+ Global Clients",
+    "99% Client Satisfaction Across Diverse Industries",
+    "Projects Delivered in 12+ Countries",
+    "Specialists in B2B and B2C Web Solutions",
+  ];
   const trustSignals =
-    page === "web" ? "" : page === "app" ? appTrustSignals : commonTrustSignals;
+    page === "web"
+      ? webTrustSignals
+      : page === "app"
+      ? appTrustSignals
+      : commonTrustSignals;
   return (
     <div className="py-[4rem] wrapper grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-5">
       <div data-aos="fade-up" className="grid grid-cols-2 gap-3 sm:gap-5">
