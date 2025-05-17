@@ -4,7 +4,7 @@ import cornIcon from "../assets/images/Corn_Icon.png";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import { testimonials } from "../data/constant";
 
-const Testimonials = () => {
+const Testimonials = ({ page }) => {
   const [loaded, setLoaded] = React.useState(false);
   const [sliderRef, instanceRef] = useKeenSlider(
     {
@@ -49,16 +49,24 @@ const Testimonials = () => {
       },
     ]
   );
-
+  const commonTrustSignals = [
+    "Leading Staff Augmentation Providers",
+    "Best Software Development Firms",
+    "Premier AI Development Experts",
+    "Top App Development Agencies",
+  ];
+  const appTrustSignals = [
+    "Trusted by Startups and Enterprises Alike",
+    "150+ Apps Launched Across 8 Industries",
+    "Serving Clients in 7+ Countries",
+    "100K+ Active Users on Apps Built by Us",
+  ];
+  const trustSignals =
+    page === "web" ? "" : page === "app" ? appTrustSignals : commonTrustSignals;
   return (
     <div className="py-[4rem] wrapper grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-5">
       <div data-aos="fade-up" className="grid grid-cols-2 gap-3 sm:gap-5">
-        {[
-          "Leading Staff Augmentation Providers",
-          "Best Software Development Firms",
-          "Premier AI Development Experts",
-          "Top App Development Agencies",
-        ].map((text, idx) => (
+        {trustSignals.map((text, idx) => (
           <div
             key={idx}
             className="p-3 bg-white rounded-xl flex items-center gap-3 text-black"

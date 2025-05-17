@@ -92,30 +92,31 @@ export const appDevelopmentServices = [
     title: "iOS App Development",
     image: require("../assets/images/landingpage/ios.webp"),
     description:
-      "Our skilled developers work with both Swift and Objective-C to build robust and efficient apps. We optimize your app for performance, speed, and responsiveness.",
+      "Our skilled team builds robust and performant iOS apps using Swift and Objective-C. We ensure speed, responsiveness, and seamless App Store deployment.",
   },
   {
     id: 2,
     title: "Android App Development",
     image: require("../assets/images/landingpage/android.webp"),
     description:
-      "We design and develop tailor-made Android apps that align with your vision and business goals.Proficient in both Java and Kotlin, we build robust and efficient apps.",
+      "We develop powerful Android apps using Java and Kotlin. From UI to backend, we align your app with business goals and Android best practices.",
   },
   {
     id: 3,
     title: "Flutter App Development",
     image: require("../assets/images/landingpage/flutter.webp"),
     description:
-      "Flutter allows you to build apps for both iOS and Android using a single codebase. While Flutter's default web app architecture presents challenges, we can overcome them with smart strategies. ",
+      "With Flutter, we build cross-platform apps that look and feel native. We also address performance challenges on web architecture using smart development strategies.",
   },
   {
     id: 4,
     title: "Hybrid App Development",
     image: require("../assets/images/landingpage/hybrid.webp"),
     description:
-      "We build feature-rich hybrid apps tailored to your business needs. We create mobile-friendly apps that work seamlessly across iOS and Android devices.",
+      "Our hybrid apps deliver wide device compatibility without compromising performance. We craft responsive experiences across both iOS and Android platforms.",
   },
 ];
+
 // Cybersecurity Services
 export const cybersecurityServices = [
   {
@@ -329,5 +330,34 @@ export const appPortfolio = [
     img: RentopBikeAndCarImgapp,
     title: "Rentop Bike and Car",
     link: "https://play.google.com/store/apps/details?id=com.rentop&pcampaignid=web_share",
+  },
+];
+
+export const appHelpingResult = [
+  {
+    title: "Collaborative Partnerships",
+    desc: "We stay aligned with your vision from idea to launch.",
+    styles: "bg-[#7C42DA] lg:rotate-[-18deg] lg:translate-y-[8rem]",
+  },
+  {
+    title: "Agility & Adaptability",
+    desc: "Our workflows evolve with your needs—no bottlenecks.",
+    styles: "bg-[#F8B000] lg:rotate-[-10deg] lg:translate-y-[3rem]",
+  },
+  {
+    title: "Commitment to Quality",
+    desc: "Every feature is crafted to deliver long-term value.",
+    styles: "bg-[#B94391]",
+  },
+  {
+    title: "Customer Satisfaction First",
+    desc: "We go beyond delivery to ensure continued success.",
+    styles: "bg-[#D1B9F7] lg:rotate-[10deg] lg:translate-y-[3rem]",
+  },
+  {
+    title: "Transparency & Accountability",
+    desc: "Regular updates, clear timelines, and full ownership of results.",
+    styles:
+      "bg-[#E85535] col-span-2 md:col-span-1 w-1/2 mx-auto md:w-full lg:rotate-[18deg] lg:translate-y-[8rem]",
   },
 ];

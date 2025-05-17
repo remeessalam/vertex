@@ -21,6 +21,7 @@ import whyWorkWithUs4 from "../assets/images/whyworkwithus4.png";
 import LandingServices from "../components/landingPage/LandingServices";
 import { ArrowScrollButton } from "../components/ArrowButtons";
 import Portfolio from "../components/Portfolio";
+import { appHelpingResult } from "../data/constant";
 
 const ContactForm = lazy(() => import("../components/ContactForm"));
 const Testimonials = lazy(() => import("../components/Testimonials"));
@@ -62,6 +63,8 @@ const industries = [
 
 const LandingPage = ({ page }) => {
   const isWeb = page === "web";
+
+  const helpingResult = isWeb ? "" : appHelpingResult;
   return (
     <>
       <section id="banner" className="relative min-h-screen bg-black/50">
@@ -75,11 +78,11 @@ const LandingPage = ({ page }) => {
               <span>{isWeb ? "Web Development" : "App Development"}</span>
             </div>
             <h1 data-aos="fade-up" className="heading text-white">
-              Empowering Your Business with Seamless
-              <span className="gradient-text">
+              {isWeb ? "" : "We build mobile apps people love to use."}
+              {/* <span className="gradient-text">
                 {" "}
                 {isWeb ? "Web Solutions" : "App Solutions"}
-              </span>
+              </span> */}
               <br />
             </h1>
             <p data-aos="fade-up" className="text-white text-lg">
@@ -89,14 +92,13 @@ const LandingPage = ({ page }) => {
               experiences across devices. Our solutions are tailored to meet
               your unique needs and drive measurable results.
               `
-                : `Our expert team creates innovative, user-friendly mobile
-            applications that bring your ideas to life. Whether it’s Android,
-            iOS, or cross-platform development, we ensure your app stands out in
-            the competitive digital landscape.`}
+                : ` From concept to launch, we design high-performing Android, iOS, and
+cross-platform apps that delight users, solve real problems, and help your business
+scale.`}
             </p>
           </div>
           <section className="">
-            <Testimonials />
+            <Testimonials page={page} />
           </section>
         </div>
         <div className="">
@@ -175,34 +177,7 @@ const LandingPage = ({ page }) => {
           data-aos="fade-up"
           className="wrapper grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-5 lg:gap-[3rem] mt-10"
         >
-          {[
-            {
-              title: "Collaborative Partnerships",
-              desc: "We foster strong partnerships by working closely with clients, ensuring alignment with your vision and delivering results that exceed expectations.",
-              styles: "bg-[#7C42DA] lg:rotate-[-18deg] lg:translate-y-[8rem]",
-            },
-            {
-              title: "Agility and Adaptability",
-              desc: "Our team thrives on flexibility, quickly adapting to changing requirements and industry trends to keep your business ahead of the curve.",
-              styles: "bg-[#F8B000] lg:rotate-[-10deg] lg:translate-y-[3rem]",
-            },
-            {
-              title: "Commitment to Quality",
-              desc: "Quality is at the heart of everything we do, from initial planning to final delivery, ensuring solutions that stand the test of time.",
-              styles: "bg-[#B94391]",
-            },
-            {
-              title: "Customer Satisfaction",
-              desc: "Your satisfaction is our top priority. We go the extra mile to ensure our solutions not only meet but exceed your expectations.",
-              styles: "bg-[#D1B9F7] lg:rotate-[10deg] lg:translate-y-[3rem]",
-            },
-            {
-              title: "Transparency and Accountability",
-              desc: "We maintain open communication, provide regular updates, and take responsibility for delivering on our commitments to ensure your trust and confidence.",
-              styles:
-                "bg-[#E85535] col-span-2 md:col-span-1 w-1/2 mx-auto md:w-full lg:rotate-[18deg] lg:translate-y-[8rem]",
-            },
-          ].map((item) => (
+          {helpingResult.map((item) => (
             <div
               className={`p-5 ${item.styles} h-full w-full flex items-center hover:rotate-[180deg] group text-center rounded-xl transition-all duration-300`}
               key={item.title}
@@ -249,109 +224,64 @@ const LandingPage = ({ page }) => {
         >
           Why Work With Us?
         </h2>
-        <div className="flex flex-col gap-5">
-          <div
-            data-aos="fade-up"
-            className="bg-[#6B308C] min-h-[50vh] relative p-5 flex flex-col-reverse md:flex-row items-center gap-4 rounded-xl overflow-hidden"
-          >
-            <div className="flex flex-col md:w-8/12 lg:w-9/12">
-              <div className="md:px-[2.5rem]">
-                <p className="md:text-lg text-white font-semibold">
-                  Our team combines creativity, technical expertise, and a
-                  passion for excellence to bring your vision to life. With
-                  attention to detail and a client-first approach, we ensure
-                  every project meets your unique requirements and delivers
-                  lasting results.
-                </p>
-                <Quote
-                  className="size-10 fill-white/20 self-end mt-3"
-                  strokeWidth={0}
-                />
+        <div className="grid md:grid-cols-2 gap-5">
+          {[
+            {
+              bgColor: "#6B308C",
+              text: "Our team combines creativity, technical expertise, and a passion for excellence to bring your vision to life. With attention to detail and a client-first approach, we ensure every project meets your unique requirements and delivers lasting results.",
+              imgSrc: whyWorkWithUs1,
+              imgClass:
+                "md:absolute right-0 top-1/2 md:-translate-y-1/2 max-h-[16rem] md:max-h-[25rem] object-contain",
+            },
+            {
+              bgColor: "#FE7624",
+              text: "At Vertex Agent Ai, we deliver excellence across web and app development, UI/UX design, game development, and blockchain solutions. Our expertise ensures innovative, scalable results tailored to your goals.",
+              imgSrc: whyWorkWithUs2,
+              imgClass:
+                "md:absolute right-0 bottom-0 max-h-[16rem] md:max-h-[24rem] object-contain",
+            },
+            {
+              bgColor: "#F45C7B",
+              text: "Transform your digital presence with our robust web and app solutions. From feature-rich websites to high-performing mobile apps, we ensure seamless functionality and cutting-edge design to achieve your business goals.",
+              imgSrc: whyWorkWithUs3,
+              imgClass:
+                "md:absolute right-0 bottom-0 max-h-[16rem] md:max-h-[22rem] object-contain",
+            },
+            {
+              bgColor: "#507FD7",
+              text: "At Vertex Agent Ai, we deliver tailored solutions across industries. From enhancing patient care in Healthcare to empowering E-commerce and driving innovation in Technology, we cater to diverse business needs with precision.",
+              imgSrc: whyWorkWithUs4,
+              imgClass:
+                "md:absolute right-0 bottom-0 max-h-[16rem] md:max-h-[22rem] object-contain",
+            },
+          ].map((item, index) => (
+            <div
+              key={index}
+              data-aos="fade-up"
+              className={`min-h-[50vh] relative p-5 flex flex-col-reverse md:flex-row items-center gap-4 rounded-xl overflow-hidden`}
+              style={{ backgroundColor: item.bgColor }}
+            >
+              <div className="flex flex-col md:w-8/12 lg:w-9/12 z-10">
+                <div className="md:px-[2.5rem]">
+                  <p className="md:text-lg text-white font-semibold ">
+                    {item.text}
+                  </p>
+                  <Quote
+                    className="size-10 fill-white/20 self-end mt-3"
+                    strokeWidth={0}
+                  />
+                </div>
               </div>
+              <img
+                src={item.imgSrc}
+                alt="why-work-with-us-images"
+                className={item.imgClass + ` md:brightness-50`}
+              />
             </div>
-            <img
-              src={whyWorkWithUs1}
-              alt=""
-              className="md:absolute right-0 top-1/2 md:-translate-y-1/2 max-h-[16rem] md:max-h-[25rem] object-contain"
-            />
-          </div>
-
-          <div
-            data-aos="fade-up"
-            className="bg-[#FE7624] min-h-[50vh] relative p-5 flex flex-col-reverse md:flex-row items-center gap-4 rounded-xl overflow-hidden"
-          >
-            <div className="flex flex-col md:w-8/12 lg:w-9/12">
-              <div className="md:px-[2.5rem]">
-                <p className="md:text-lg text-white font-semibold">
-                  At Vertex Agent Ai, we deliver excellence across web and app
-                  development, UI/UX design, game development, and blockchain
-                  solutions. Our expertise ensures innovative, scalable results
-                  tailored to your goals.
-                </p>
-                <Quote
-                  className="size-10 fill-white/20 self-end mt-3"
-                  strokeWidth={0}
-                />
-              </div>
-            </div>
-            <img
-              src={whyWorkWithUs2}
-              alt=""
-              className="md:absolute right-0 bottom-0 max-h-[16rem] md:max-h-[24rem] object-contain"
-            />
-          </div>
-
-          <div
-            data-aos="fade-up"
-            className="bg-[#F45C7B] min-h-[50vh] relative p-5 flex flex-col-reverse md:flex-row items-center gap-4 rounded-xl overflow-hidden"
-          >
-            <div className="flex flex-col md:w-8/12 lg:w-9/12">
-              <div className="md:px-[2.5rem]">
-                <p className="md:text-lg text-white font-semibold">
-                  Transform your digital presence with our robust web and app
-                  solutions. From feature-rich websites to high-performing
-                  mobile apps, we ensure seamless functionality and cutting-edge
-                  design to achieve your business goals.
-                </p>
-                <Quote
-                  className="size-10 fill-white/20 self-end mt-3"
-                  strokeWidth={0}
-                />
-              </div>
-            </div>
-            <img
-              src={whyWorkWithUs3}
-              alt=""
-              className="md:absolute right-0 bottom-0 max-h-[16rem] md:max-h-[22rem] object-contain"
-            />
-          </div>
-
-          <div
-            data-aos="fade-up"
-            className="bg-[#507FD7] min-h-[50vh] relative p-5 flex flex-col-reverse md:flex-row items-center gap-4 rounded-xl overflow-hidden"
-          >
-            <div className="flex flex-col md:w-8/12 lg:w-9/12">
-              <div className="md:px-[2.5rem]">
-                <p className="md:text-lg text-white font-semibold">
-                  At Vertex Agent Ai, we deliver tailored solutions across
-                  industries. From enhancing patient care in Healthcare to
-                  empowering E-commerce and driving innovation in Technology, we
-                  cater to diverse business needs with precision.
-                </p>
-                <Quote
-                  className="size-10 fill-white/20 self-end mt-3"
-                  strokeWidth={0}
-                />
-              </div>
-            </div>
-            <img
-              src={whyWorkWithUs4}
-              alt=""
-              className="md:absolute right-0 bottom-0 max-h-[16rem] md:max-h-[22rem] object-contain"
-            />
-          </div>
+          ))}
         </div>
       </section>
+
       <ContactForm id="contact" />
     </>
   );
