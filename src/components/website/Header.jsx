@@ -61,7 +61,7 @@ const Header = () => {
             alt="logo"
             width="75"
             height="75"
-            className="h-[3.5rem] lg:h-[5rem] object-contain"
+            className="h-[3.5rem] lg:h-[5rem] scale-125 object-contain"
           />
         </Link>
         <div className="hidden lg:flex items-center gap-10">
