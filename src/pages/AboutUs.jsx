@@ -11,9 +11,9 @@ import AboutCompany from "../components/website/AboutCompany";
 const ContactForm = lazy(() => import("../components/ContactForm"));
 const WorkProcess = lazy(() => import("../components/WorkProcess"));
 const Testimonials = lazy(() => import("../components/Testimonials"));
-const ServicesWeProvide = lazy(() =>
-  import("../components/website/ServicesWeProvide")
-);
+// const ServicesWeProvide = lazy(() =>
+//   import("../components/website/ServicesWeProvide")
+// );
 
 const AboutUs = () => {
   return (
@@ -41,7 +41,7 @@ const AboutUs = () => {
         </div>
       </section>
       <AboutCompany />
-      <ServicesWeProvide />
+      {/* <ServicesWeProvide /> */}
       <section className="bg-[#F7F7F9]">
         <Testimonials />
       </section>

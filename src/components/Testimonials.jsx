@@ -49,11 +49,17 @@ const Testimonials = ({ page }) => {
       },
     ]
   );
+  // const commonTrustSignals = [
+  //   "Leading Staff Augmentation Providers",
+  //   "Best Software Development Firms",
+  //   "Premier AI Development Experts",
+  //   "Top App Development Agencies",
+  // ];
   const commonTrustSignals = [
-    "Leading Staff Augmentation Providers",
-    "Best Software Development Firms",
-    "Premier AI Development Experts",
-    "Top App Development Agencies",
+    "End-to-End Delivery: From Ideation to Deployment",
+    "Cutting-Edge Tech Stack Across AI, Web, and Mobile",
+    "Obsessed with UI/UX That Converts and Performs",
+    "Client-First Approach with Transparent Communication",
   ];
   const appTrustSignals = [
     "Trusted by Startups and Enterprises Alike",

@@ -99,7 +99,7 @@ const Home = () => {
               data-aos="fade-up"
               className="flex items-center text-start self-start text-white px-3 py-2 rounded-full border border-white"
             >
-              <CodeXml className="inline mr-2" /> <span>IT & AI Services</span>
+              <CodeXml className="inline mr-2" /> <span>AI & IT Services</span>
             </div>
             <h1 data-aos="fade-up" className="heading text-white">
               Welcome to{" "}
@@ -120,7 +120,7 @@ const Home = () => {
               {bannerServices.map((item) => (
                 <div
                   key={item.id}
-                  className="p-5 rounded-xl bg-secondary/60 backdrop-blur-md lg:hover:bg-primary/60 text-white space-y-4 transition-all duration-300"
+                  className="p-5 rounded-xl bg-[#4e535d] backdrop-blur-md lg:hover:bg-primary/60 text-white space-y-4 transition-all duration-300"
                 >
                   <p className="text-xl font-medium">{item.title}</p>
                   <p className="min-h-[6rem]">{item.desc}</p>
@@ -317,6 +317,7 @@ const Home = () => {
               key={index}
               data-aos="fade-up"
               className={`bg-[${bgColor}] min-h-[50vh] relative p-5 flex flex-col-reverse md:flex-row items-center gap-4 rounded-xl overflow-hidden`}
+              style={{ backgroundColor: bgColor }}
             >
               <div className="flex flex-col md:w-8/12 lg:w-9/12 z-10">
                 <div className="md:px-[2.5rem]">
