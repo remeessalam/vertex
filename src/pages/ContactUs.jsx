@@ -1,5 +1,5 @@
 import React, { lazy, useContext } from "react";
-import banner from "../assets/images/contactus-banner.jpg";
+import banner from "../assets/images/contactus-banner.png";
 import { Mail, MapPin, PhoneCall } from "lucide-react";
 import { companyDetails } from "../data/constant";
 import { Link, useNavigate } from "react-router-dom";
@@ -70,7 +70,7 @@ const ContactUs = () => {
     <div className="pt-[4rem]">
       <img
         src={banner}
-        className="w-full aspect-[5/3] md:aspect-[6/2] object-cover object-[30%_100%] md:object-top"
+        className="w-full aspect-[5/3] md:aspect-[16/9] object-cover object-[30%_100%] md:object-top"
         alt="Contact Us Banner"
       />
       <div className="bg-gradient-to-r from-[#262731] to-[#757795]">
