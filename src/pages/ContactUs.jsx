@@ -232,7 +232,7 @@ const ContactUs = () => {
           </div>
         </div>
       </div>
-      <MapComponent />
+      {/* <MapComponent /> */}
     </div>
   );
 };
