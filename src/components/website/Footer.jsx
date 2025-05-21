@@ -74,7 +74,7 @@ const Footer = () => {
         </div>
         <hr className="border-secondary/50" />
         <div className="text-center">
-          <p>VERTEX AGENTS AI is a brand run by AGENTICS AI LABS LLP</p>
+          <p>VERTEX AGENTS AI - Powered by AGENTICS AI LABS LLP</p>
           <p className=" mt-2">
             Copyright &copy; {new Date().getFullYear()} All rights reserved.
           </p>

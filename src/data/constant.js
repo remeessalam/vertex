@@ -23,7 +23,7 @@ export const companyDetails = {
   address:
     "1-62b, Chandrapriya Nagar, Gooty (R.S), Gooty, Ananthapur Dist, Pin: 515402, Andhra Pradesh",
   phone: "+91-9360986603",
-  email: "abc@example.com",
+  email: "support@vertexagentai.com",
   whatsapplink:
     "https://api.whatsapp.com/send/?phone=9360986603&text&type=phone_number&app_absent=0",
 };

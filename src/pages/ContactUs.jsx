@@ -88,7 +88,7 @@ const ContactUs = () => {
                 <p className="max-w-xs">{companyDetails.address}</p>
               </div>
             </div>
-            <div className="flex items-start sm:justify-center gap-3">
+            {/* <div className="flex items-start sm:justify-center gap-3">
               <div className="w-[3.5rem] min-w-[3.5rem] flex items-center justify-center bg-gradient-to-r from-[#e5497c] to-[#495df3] rounded-full aspect-square">
                 <PhoneCall className="text-white" size={25} />
               </div>
@@ -98,7 +98,7 @@ const ContactUs = () => {
                   {companyDetails.phone}
                 </Link>
               </div>
-            </div>
+            </div> */}
             <div className="flex items-start sm:justify-center gap-3">
               <div className="w-[3.5rem] min-w-[3.5rem] flex items-center justify-center bg-gradient-to-r from-[#e5497c] to-[#495df3] rounded-full aspect-square">
                 <Mail className="text-white" size={25} />
