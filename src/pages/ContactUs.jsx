@@ -75,43 +75,7 @@ const ContactUs = () => {
       />
       <div className="bg-gradient-to-r from-[#262731] to-[#757795]">
         <div className="wrapper py-[4rem]">
-          <div
-            data-aos="fade-up"
-            className="grid sm:grid-cols-3 gap-7 text-white"
-          >
-            <div className="flex items-start sm:justify-center gap-3">
-              <div className="w-[3.5rem] min-w-[3.5rem] flex items-center justify-center bg-gradient-to-r from-[#e5497c] to-[#495df3] rounded-full aspect-square">
-                <MapPin className="text-white" size={25} />
-              </div>
-              <div className="space-y-2">
-                <p className="font-semibold">Location</p>
-                <p className="max-w-xs">{companyDetails.address}</p>
-              </div>
-            </div>
-            {/* <div className="flex items-start sm:justify-center gap-3">
-              <div className="w-[3.5rem] min-w-[3.5rem] flex items-center justify-center bg-gradient-to-r from-[#e5497c] to-[#495df3] rounded-full aspect-square">
-                <PhoneCall className="text-white" size={25} />
-              </div>
-              <div className="space-y-2">
-                <p className="font-semibold">Phone Number</p>
-                <Link to={`tel:${companyDetails.phone}`}>
-                  {companyDetails.phone}
-                </Link>
-              </div>
-            </div> */}
-            <div className="flex items-start sm:justify-center gap-3">
-              <div className="w-[3.5rem] min-w-[3.5rem] flex items-center justify-center bg-gradient-to-r from-[#e5497c] to-[#495df3] rounded-full aspect-square">
-                <Mail className="text-white" size={25} />
-              </div>
-              <div className="space-y-2">
-                <p className="font-semibold">Contact Support</p>
-                <Link to={`mailto:${companyDetails.email}`}>
-                  {companyDetails.email}
-                </Link>
-              </div>
-            </div>
-          </div>
-          <div className="mt-[4rem] text-white">
+          <div className="mb-[4rem] text-white">
             <h2 data-aos="fade-up" className="section-heading">
               Let's Connect With Us!
             </h2>
@@ -229,6 +193,42 @@ const ContactUs = () => {
                 Send Message
               </button>
             </form>
+          </div>
+          <div
+            data-aos="fade-up"
+            className="grid sm:grid-cols-3 gap-7 text-white"
+          >
+            <div className="flex items-start sm:justify-center gap-3">
+              <div className="w-[3.5rem] min-w-[3.5rem] flex items-center justify-center bg-gradient-to-r from-[#e5497c] to-[#495df3] rounded-full aspect-square">
+                <MapPin className="text-white" size={25} />
+              </div>
+              <div className="space-y-2">
+                <p className="font-semibold">Location</p>
+                <p className="max-w-xs">{companyDetails.address}</p>
+              </div>
+            </div>
+            {/* <div className="flex items-start sm:justify-center gap-3">
+              <div className="w-[3.5rem] min-w-[3.5rem] flex items-center justify-center bg-gradient-to-r from-[#e5497c] to-[#495df3] rounded-full aspect-square">
+                <PhoneCall className="text-white" size={25} />
+              </div>
+              <div className="space-y-2">
+                <p className="font-semibold">Phone Number</p>
+                <Link to={`tel:${companyDetails.phone}`}>
+                  {companyDetails.phone}
+                </Link>
+              </div>
+            </div> */}
+            <div className="flex items-start sm:justify-center gap-3">
+              <div className="w-[3.5rem] min-w-[3.5rem] flex items-center justify-center bg-gradient-to-r from-[#e5497c] to-[#495df3] rounded-full aspect-square">
+                <Mail className="text-white" size={25} />
+              </div>
+              <div className="space-y-2">
+                <p className="font-semibold">Contact Support</p>
+                <Link to={`mailto:${companyDetails.email}`}>
+                  {companyDetails.email}
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       </div>
