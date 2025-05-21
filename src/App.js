@@ -17,6 +17,8 @@ import LandingHeader from "./components/landingPage/LandingHeader";
 import LandingFooter from "./components/landingPage/LandingFooter";
 import { Toaster } from "react-hot-toast";
 import Cybersecurity from "./pages/Cybersecurity";
+import BlogPage from "./pages/BlogPage";
+import BlogView from "./pages/BlogView";
 
 // Lazy loading components
 const Home = lazy(() => import("./pages/Home"));
@@ -67,6 +69,27 @@ function App() {
                 </>
               }
             />
+            <Route
+              path="/blogs"
+              element={
+                <>
+                  <Header />
+                  <BlogPage />
+                  <Footer />
+                </>
+              }
+            />
+            <Route
+              path="/blog/:slug"
+              element={
+                <>
+                  <Header />
+                  <BlogView />
+                  <Footer />
+                </>
+              }
+            />
+
             <Route
               path="/contact"
               element={
