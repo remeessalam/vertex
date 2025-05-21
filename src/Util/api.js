@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // const baseUrl = "http://localhost:5001/api";
-const baseUrl = "https://vertex-backend-main.vercel.app";
+const baseUrl = "https://vertex-backend-main.vercel.app/api";
 
 // get all blogs (published)
 export const getBlogs = () => axios.get(`${baseUrl}/blogs/published`);
