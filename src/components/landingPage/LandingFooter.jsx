@@ -1,6 +1,7 @@
 import { Facebook, Instagram, Linkedin } from "lucide-react";
 import React from "react";
 import { Link } from "react-router-dom";
+import { companyDetails } from "../../data/constant";
 
 const LandingFooter = () => {
   return (
@@ -18,13 +19,13 @@ const LandingFooter = () => {
           </p>
         </div>
         <div className="flex gap-4 items-center sm:justify-end justify-center">
-          <Link to="/" className="link">
+          <Link to={companyDetails.linkedIn} className="link">
             <Linkedin className="w-6 h-6 link" strokeWidth={1.5} />
           </Link>
-          <Link to="/" className="link">
+          <Link to={companyDetails.instagram} className="link">
             <Instagram className="w-6 h-6 link" strokeWidth={1.5} />
           </Link>
-          <Link to="/" className="link">
+          <Link to={companyDetails.facebook} className="link">
             <Facebook className="w-6 h-6 link" strokeWidth={1.5} />
           </Link>
         </div>

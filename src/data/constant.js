@@ -26,6 +26,9 @@ export const companyDetails = {
   email: "support@vertexagentai.com",
   whatsapplink:
     "https://api.whatsapp.com/send/?phone=9360986603&text&type=phone_number&app_absent=0",
+  linkedIn: "https://www.linkedin.com/company/vertex-agents-ai",
+  instagram: "https://www.instagram.com/vertexagentai/",
+  facebook: "https://www.facebook.com/share/167SBksN3P/",
 };
 
 // working process
