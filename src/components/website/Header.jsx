@@ -52,7 +52,7 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   const { pathname } = useLocation();
   return (
-    <div className="fixed top-0 left-0 py-4 z-50 w-full backdrop-blur-sm bg-darkBackground">
+    <div className="fixed top-0 left-0 py-4 z-50 w-full         ">
       <div className="flex wrapper items-center gap-8 justify-between">
         <Link to="/" className="cursor-pointer">
           <img

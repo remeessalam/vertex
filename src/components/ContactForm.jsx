@@ -38,7 +38,7 @@ const ContactForm = ({ headline, id }) => {
     // Construct the request payload
     var payload = {
       to: companyDetails.email,
-      subject: "Contact Form Submission - Vertex Agent Ai",
+      subject: "Contact Form Submission - VERTEX AGENT AI",
       body: emailBody,
       name: companyDetails.name,
     };

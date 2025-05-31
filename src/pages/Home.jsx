@@ -102,8 +102,7 @@ const Home = () => {
               <CodeXml className="inline mr-2" /> <span>AI & IT Services</span>
             </div>
             <h1 data-aos="fade-up" className="heading text-white">
-              Welcome to{" "}
-              <span className="gradient-text">Vertex Agent Ai – </span>
+              Welcome to <span className="gradient-text">VERTEX AGENT AI </span>
               <br />
               <span className="text-white">
                 Your edge in AI, DATA & Cyber Solutions
@@ -206,7 +205,7 @@ const Home = () => {
       </section>
       <section className="pt-[4rem]">
         <h2 data-aos="fade-up" className="wrapper section-heading text-center">
-          How Vertex Agent Ai helps you deliver the best results
+          How VERTEX AGENT AI helps you deliver the best results
         </h2>
         <div
           data-aos="fade-up"
@@ -296,7 +295,7 @@ const Home = () => {
             },
             {
               bgColor: "#FE7624",
-              text: "At Vertex Agent Ai, we deliver excellence across web and app development, UI/UX design, game development, and blockchain solutions. Our expertise ensures innovative, scalable results tailored to your goals.",
+              text: "At VERTEX AGENT AI, we deliver excellence across web and app development, UI/UX design, game development, and blockchain solutions. Our expertise ensures innovative, scalable results tailored to your goals.",
               imgSrc: whyWorkWithUs2,
               imgPosition: "bottom-0",
             },
@@ -308,7 +307,7 @@ const Home = () => {
             },
             {
               bgColor: "#507FD7",
-              text: "At Vertex Agent Ai, we deliver tailored solutions across industries. From enhancing patient care in Healthcare to empowering E-commerce and driving innovation in Technology, we cater to diverse business needs with precision.",
+              text: "At VERTEX AGENT AI, we deliver tailored solutions across industries. From enhancing patient care in Healthcare to empowering E-commerce and driving innovation in Technology, we cater to diverse business needs with precision.",
               imgSrc: whyWorkWithUs4,
               imgPosition: "bottom-0",
             },

@@ -72,9 +72,9 @@ const AboutCompany = () => {
       <div className="container mx-auto px-4 py-16">
         <div className="flex flex-col md:flex-row items-center gap-12">
           <div className="md:w-1/2">
-            <h2 className="text-3xl font-bold mb-6">About Vertex Agents AI</h2>
+            <h2 className="text-3xl font-bold mb-6">About VERTEX AGENT AI</h2>
             <p className="mb-4">
-              At <strong>Vertex Agents AI</strong>, we're not just another
+              At <strong>VERTEX AGENT AI</strong>, we're not just another
               development company. We partner with businesses of all sizes to
               design custom solutions that are efficient, scalable, and
               future-ready.

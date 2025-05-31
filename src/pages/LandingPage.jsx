@@ -172,7 +172,7 @@ scale.`}
       </section>
       <section className="pt-[4rem]">
         <h2 data-aos="fade-up" className="wrapper section-heading text-center">
-          How Vertex Agent Ai helps you deliver the best results
+          How VERTEX AGENT AI helps you deliver the best results
         </h2>
         <div
           data-aos="fade-up"
@@ -236,7 +236,7 @@ scale.`}
             },
             {
               bgColor: "#FE7624",
-              text: "At Vertex Agent Ai, we deliver excellence across web and app development, UI/UX design, game development, and blockchain solutions. Our expertise ensures innovative, scalable results tailored to your goals.",
+              text: "At VERTEX AGENT AI, we deliver excellence across web and app development, UI/UX design, game development, and blockchain solutions. Our expertise ensures innovative, scalable results tailored to your goals.",
               imgSrc: whyWorkWithUs2,
               imgClass:
                 "md:absolute right-0 bottom-0 max-h-[16rem] md:max-h-[24rem] object-contain",
@@ -250,7 +250,7 @@ scale.`}
             },
             {
               bgColor: "#507FD7",
-              text: "At Vertex Agent Ai, we deliver tailored solutions across industries. From enhancing patient care in Healthcare to empowering E-commerce and driving innovation in Technology, we cater to diverse business needs with precision.",
+              text: "At VERTEX AGENT AI, we deliver tailored solutions across industries. From enhancing patient care in Healthcare to empowering E-commerce and driving innovation in Technology, we cater to diverse business needs with precision.",
               imgSrc: whyWorkWithUs4,
               imgClass:
                 "md:absolute right-0 bottom-0 max-h-[16rem] md:max-h-[22rem] object-contain",

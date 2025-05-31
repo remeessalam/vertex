@@ -11,7 +11,7 @@ const LandingFooter = () => {
       <div className="wrapper flex sm:flex-row flex-col sm:text-start text-center justify-between gap-10">
         <div>
           <p className="mb-2">
-            VERTEX AGENTS AI - Powered by AGENTICS AI LABS LLP
+            VERTEX AGENT AI - Powered by AGENTICS AI LABS LLP
           </p>
 
           <p className="">

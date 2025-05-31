@@ -5,8 +5,8 @@ import { Facebook, Instagram, Linkedin } from "lucide-react";
 
 const Thankyou = () => {
   return (
-    <div className="min-h-screen flex flex-col justify-between relative bg-gradient-to-b from-[#f8e4de] to-[#f5f5f5]">
-      <div className="fixed top-0 left-0 py-4 z-50 w-full backdrop-blur-sm bg-white">
+    <div className="min-h-screen flex flex-col justify-between relative  bg-black">
+      <div className="fixed top-0 left-0 py-4 z-50 w-full backdrop-blur-sm bg-darkBackground">
         <div className="flex wrapper items-center gap-8 justify-between">
           <Link to="/" className="cursor-pointer">
             <img

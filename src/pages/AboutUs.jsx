@@ -123,7 +123,7 @@ const AboutUs = () => {
               />
               <div className="py-[3rem] px-7 sm:aspect-square flex flex-col justify-between bg-gradient-to-tr sm:p-7 from-[#992FED] to-[#2F80ED]">
                 <h4 className="text-xl font-semibold text-white">
-                  Vertex Agent Ai Partners with Optimizely for Enhanced Digital
+                  VERTEX AGENT AI Partners with Optimizely for Enhanced Digital
                   Experiences
                 </h4>
                 <Link
